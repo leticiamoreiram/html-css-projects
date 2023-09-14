@@ -9,7 +9,7 @@ body {
   opacity: .6;
 }
 
-/* CSS Animation 01 */
+/* CSS Animation 01 
 .square {
   animation-name: move;
   animation-duration: 1s;
@@ -17,11 +17,27 @@ body {
 }
 
 @keyframes move {
-  /* from */
+
   0% {
 
   }
-  /* to */
+  
+  100% {
+    transform: translateX(calc(100vw - 100% - 16px));
+  }
+}
+*/
+
+/* CSS Animation 02 */
+.square {
+  animation-name: move;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
   100% {
     transform: translateX(calc(100vw - 100% - 16px));
   }
