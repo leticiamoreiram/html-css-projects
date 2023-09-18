@@ -9,12 +9,14 @@
 
 :root {
   font-size: 62.5%;
-
-  --color-base-white: #FFFFFF;
-  --color-base-gray-100: #F5F5F5;
-  --color-base-gray-300: #8D8D99;
-  --color-base-gray-500: #3D3D3D;
-  --color-base-gray-900: #202024;
+  
+  /* hue vai variar a cor (hsl) */
+  --hue: 240;
+  --color-base-white: hsl(0, 0%, 100%);
+  --color-base-gray-100: hsl(0, 0%, 96%);
+  --color-base-gray-300: hsl(var(--hue), 60%, 58%);
+  --color-base-gray-500: hsl(0, 0%, 24%);
+  --color-base-gray-900: hsl(var(--hue), 60%, 30%);
 }
 
 html, body, input {
