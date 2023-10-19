@@ -35,6 +35,19 @@ Descrição: Um projeto focado em praticar a criação de um layout responsivo, 
 #### Receita Cheesecake
 Descrição: Uma página com a receita de cheesecake, demonstrando responsividade para diferentes dispositivos.
 
+### Aprofundando no CSS
+
+#### CSS Animation
+Descrição: Algumas atividades para aprender algumas animações em CSS.
+
+#### Galaxies
+Descrição: Conceitos e fundamentos do CSS Grid.
+
+### Projeto de site
+
+#### Fotoblog
+Descrição: Site que utiliza de conceitos vistos em todos osoutros projetos (ex.: mobile-first, CSS animation)
+
 ## Como Utilizar
 
 1. Clone este repositório para o seu ambiente local usando o seguinte comando:
